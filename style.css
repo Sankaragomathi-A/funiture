@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    background-color: #7a6f61;
+width: 1500px;
+}
+.container{
+    background-color: white;
+}
+.navbar{
+    padding-left: 290px;
+    padding-right: 290px;
+}
+.navbar #home,#items{
+    float: left;
+    height: 60px;
+    width: 15%;
+    margin-right: 5%;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+#home{
+    background-color: rgb(122, 247, 6);
+    color: white;
+}
+.clearfix{
+    clear: left;
+}
+#heading{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+span{
+    color: red;
+}
+div .imgcontainer{
+   
+    padding-left: 5%;
+    
+    
+
+}
+div .column1{
+    width: 1250px;    
+}
+div .img{
+    width: 30%;
+    height: 510px;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 2px 0px 2px 0px;
+    margin: 30px 45px 35px -25px;
+    text-align: center;
+    background-color:rgb(122, 247, 6);
+}
+div .img img{
+    width: 100%;
+    height: 200px;
+}
+div .img h2{
+    text-align: center;
+} 
+div .img p{
+
+    padding: 35px 8%;
+    height: 250px;
+    background-image: linear-gradient(to bottom right,rgb(56, 55, 55),rgb(97, 97, 97));
+    transform: translateY(-25px);
+    border-bottom-right-radius:50%;
+    color: white;}
+div .container2{
+    width: 1240px;
+}
+div .items{
+    width: 30%;
+    float: left;
+    margin: 30px 31px 35px -13px;
+}
+div .items ul{
+    width: 100%;
+    color: black
+}
+div .items h2{
+    font-size: 35px;
+    color:black
+}
+div .items h3{
+    color:black
+}
+div .items p{
+    color: rgb(34,39,29);
+}
+div .items button{
+    
+    background-image: linear-gradient(to bottom right,rgb(255, 136, 0),rgb(255, 40, 40));
+    padding: 10px;
+    width: 200px;
+  color: white;
+  border: none;
+}
+.clearfix{
+    clear: left;
+}
+div .container3{
+    width: 1250px;
+}
+
+div .card{
+    width: 47%;
+    float: left;
+    margin-right: 2px;
+    margin-left: 35px;
+   background-image: linear-gradient(to bottom right,rgb(56, 55, 55),rgb(97, 97, 97));
+    height: 150px;
+}
+div div .item1{
+    width: 20px;
+    float: left;
+
+}
+div div .item2{
+    width: 70%;
+    float: left;
+    margin-left: 25%;
+    padding-right: 0;
+   }
+#number{
+    font-size: 50px;
+    background-color: rgb(122, 247, 6);
+    padding: 47px 60px;
+    transform: translateY(-50px);
+}
+.container3 h3{
+ font-size: 25px;
+}
+.clearfix{
+    clear: left;
+}
+footer{
+    width: 1250px;
+    text-align: center;
+    padding-top: 50px;
+}
